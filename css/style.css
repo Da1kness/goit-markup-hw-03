@@ -8,14 +8,26 @@
     --cloud:#F4F4FD;
 }
 
-body { 
- color: #434455;;
- background-color:var(--background-color);
- font-family:"Roboto",sans-serif;
+body {
+     color: #434455;
+     background-color:var(--background-color);
+     font-family:"Roboto",sans-serif;
+}
+
+/*------Header------*/
+
+li {
+ list-style:none;
+}
+
+.header{}
+
+.header-nav{
+    list-style: none;
 }
 
 /*Logo*/
-/*nav-list - header-nav*/
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -46,19 +58,7 @@ body {
     color:var(--dark);
 }
 
-/*.h-span {
-    color:var(--dark);
-}*/
-
-/*Catalog and contact*/
-
-li {
- list-style:none;
-}
-
-.header-nav{
-    list-style: none;
-}
+/*Catalog*/
 
 .catalog-link {
     font-family:'Raleway',sans-serif;
@@ -77,6 +77,8 @@ li {
 .catalog-link:focus {
     color:var(--pressed-state);
 }
+
+/*Contact*/
 
 .contact-address{
     font-style:normal;
@@ -99,6 +101,7 @@ li {
 .contact-address-link:focus {
     color: var(--pressed-state);
 }
+
 /*Hero*/
 
 .hero {
@@ -136,8 +139,9 @@ li {
     background-color: #404BBF;
 }
 
-/*Sections*/
+/*-------Sections-------*/
 
+/*---Section1---*/
 /*Features*/
 
 .features {}
@@ -164,6 +168,7 @@ li {
     color: var(--text);
 }
 
+/*---Section2---*/
 /*Work*/
 
 .work-title {
@@ -183,7 +188,12 @@ li {
     list-style: none;
 }
 
-/*Team*/
+/*---Section3---*/
+/*Our Team*/
+
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     font-family: 'Roboto';
@@ -198,12 +208,6 @@ li {
     list-style: none;
 }
 
-
-/*Our Team*/
-
-.team {
-    background-color: #F4F4FD;
-}
 .team-list .title {
     background-color: #F4F4FD;
     font-family: 'Roboto';
@@ -265,39 +269,8 @@ li {
 
 /*Portfolio*/
 
+/*---Section1---*/
 /*Portfolio-Buttons*/
-
-/*
-.portfolio-list .purple {
-    background-color:#404BBF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
-.portfolio-list .white {
-    background-color:#E7E9FC;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-
-    color:#4D5AE5;
-    cursor: pointer;
-}
-*/
 
 .portfolio-list .list {
     font-family: "Roboto", sans-serif;
