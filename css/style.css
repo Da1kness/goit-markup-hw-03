@@ -1,0 +1,356 @@
+:root{
+    --background-color: #FFFFFF;
+    --primary-brand:#4D5AE5;
+    --pressed-state:#404BBF;
+    --dark:#2e2f42;
+    --text:#434455;
+    --light:#E7E9FC; 
+    --cloud:#F4F4FD;
+}
+
+body { 
+ color: #434455;;
+ background-color:var(--background-color);
+ font-family:"Roboto",sans-serif;
+}
+
+/*Logo*/
+/*nav-list - header-nav*/
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration:none;
+
+    color:var(--primary-brand);
+}
+
+.logo-header {
+    font-family:"Raleway",sans-serif;
+    font-weight:800;
+    font-size:18px;
+    line-height:1.17;
+    display:flex;
+    align-items:center;
+
+    letter-spacing:0.03em;
+    text-transform:uppercase;
+    text-decoration:none;
+
+    color:var(--dark);
+}
+
+/*.h-span {
+    color:var(--dark);
+}*/
+
+/*Catalog and contact*/
+
+li {
+ list-style:none;
+}
+
+.header-nav{
+    list-style: none;
+}
+
+.catalog-link {
+    font-family:'Raleway',sans-serif;
+    font-style:normal;
+    font-weight:500;
+    font-size:16px;
+    line-height:1.5;
+
+    text-decoration:none;
+    letter-spacing:0.02em;
+
+    color:var(--dark);
+}
+
+.catalog-link:hover,
+.catalog-link:focus {
+    color:var(--pressed-state);
+}
+
+.contact-address{
+    font-style:normal;
+}
+
+.contact-address-link {
+    font-family:'Roboto';
+    font-style:normal;
+    font-weight:400;
+    font-size:16px;
+    line-height:24px;
+
+    letter-spacing:0.02em;
+    text-decoration:none;
+
+    color: var(--text);
+}
+
+.contact-address-link:hover,
+.contact-address-link:focus {
+    color: var(--pressed-state);
+}
+/*Hero*/
+
+.hero {
+    background-color: var(--dark);
+}
+
+.hero-title {
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 700;
+    font-size:56px;
+    line-height:1.07;
+    text-align: center;
+
+    letter-spacing: 0.02em;
+
+    color:var(--background-color);
+}
+
+.hero-button {
+    background-color:var(--primary-brand);
+    font-family: "Roboto", sans-serif;
+    font-style:normal;
+    font-weight:500;
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color:#404BBF;
+    background-color: #404BBF;
+}
+
+/*Sections*/
+
+/*Features*/
+
+.features {}
+
+.features-title{}
+
+.features-item-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.features-item-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+
+/*Work*/
+
+.work-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42
+}
+
+.work-list {
+    list-style: none;
+}
+
+/*Team*/
+
+.team-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    list-style: none;
+}
+
+
+/*Our Team*/
+
+.team {
+    background-color: #F4F4FD;
+}
+.team-list .title {
+    background-color: #F4F4FD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.11;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+    list-style: none;
+}
+
+.team-list .text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+    background-color: #FFFFFF;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+/*Footer*/
+
+.footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+
+    letter-spacing: 0.03em;
+
+    text-transform: uppercase;
+
+    background-color: var(--dark);
+    color:var(--primary-brand);
+
+    text-decoration: none;
+}
+
+.logo-footer {
+    color: #F4F4FD;
+    text-decoration: none;
+}
+
+.footer-text {
+    color:#F4F4FD;;
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: 0.02em;
+}
+
+/*Portfolio*/
+
+/*Portfolio-Buttons*/
+
+/*
+.portfolio-list .purple {
+    background-color:#404BBF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.portfolio-list .white {
+    background-color:#E7E9FC;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+
+    color:#4D5AE5;
+    cursor: pointer;
+}
+*/
+
+.portfolio-list .list {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    list-style: none;
+
+    letter-spacing: 0.04em;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+
+    color:var(--primary-brand);
+    background-color: var(--cloud);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+/*Portfolio-Advanteges*/
+
+.advant-list {}
+
+.advant-item {}
+
+.advant-text {
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.advant-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--dark);
+}
+
+.advant-link {
+    text-decoration: none;
+}
+
+.advant-img{}
