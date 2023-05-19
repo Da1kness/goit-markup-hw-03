@@ -14,16 +14,29 @@ body {
      font-family:"Roboto",sans-serif;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline:2px solid red;
+}
+
 /*------Header------*/
 
 li {
  list-style:none;
 }
 
-.header{}
+.header-container{
+    display: flex;
+    align-items: center;
+}
 
 .header-nav{
     list-style: none;
+    display: flex;
+    align-items: center;
 }
 
 /*Logo*/
@@ -39,6 +52,7 @@ li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration:none;
+   
 
     color:var(--primary-brand);
 }
@@ -50,7 +64,7 @@ li {
     line-height:1.17;
     display:flex;
     align-items:center;
-
+ margin-right: 76px;
     letter-spacing:0.03em;
     text-transform:uppercase;
     text-decoration:none;
@@ -59,6 +73,11 @@ li {
 }
 
 /*Catalog*/
+
+.catalog-list{
+    display: flex;
+    gap: 40px;
+}
 
 .catalog-link {
     font-family:'Raleway',sans-serif;
@@ -82,6 +101,11 @@ li {
 
 .contact-address{
     font-style:normal;
+    margin-left: 156px;
+}
+
+.contact-address-list{
+    display: flex;
 }
 
 .contact-address-link {
