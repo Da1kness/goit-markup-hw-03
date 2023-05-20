@@ -194,7 +194,15 @@ li {
 
 .features-list {
     display: flex;
-    gap: 24px;
+    list-style: none;
+}
+
+.features-list li{
+    margin-right: 24px;
+}
+
+.features-list li:last-child{
+    margin-right: 0;
 }
 
 .features-item {
