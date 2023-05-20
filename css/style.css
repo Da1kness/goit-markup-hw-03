@@ -88,7 +88,7 @@ li {
 
 /*Catalog*/
 
-.header-catalog{
+.catalog-list{
     display: flex;
     gap: 40px;
 }
@@ -114,17 +114,17 @@ li {
 
 /*Contact*/
 
-.header-address{
+.contact-address{
     font-style:normal;
     margin-left: 156px;
 }
 
-.header-address-list{
+.contact-address-list{
     display: flex;
     gap: 40px;
 }
 
-.header-address-link {
+.contact-address-link {
     font-family:'Roboto';
     font-style:normal;
     font-weight:400;
@@ -137,8 +137,8 @@ li {
     color: var(--text);
 }
 
-.header-address-link:hover,
-.header-address-link:focus {
+.contact-address-link:hover,
+.contact-address-link:focus {
     color: var(--pressed-state);
 }
 
@@ -294,7 +294,7 @@ li {
 
 .team-item {
     background-color: #FFFFFF;
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
 
