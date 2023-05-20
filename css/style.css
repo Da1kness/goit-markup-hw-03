@@ -20,7 +20,9 @@ body {
     padding: 0 15px;
 }
 
-
+img {
+    display: block;
+}
 
 /*------Header------*/
 
