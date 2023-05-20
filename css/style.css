@@ -31,6 +31,8 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 /*------Header------*/
@@ -39,10 +41,13 @@ li {
  list-style:none;
 }
 
-
 .header-nav{
     display: flex;
     align-items: center;
+}
+
+.header-container {
+    display: flex;
 }
 
 /*Logo*/
@@ -52,15 +57,11 @@ li {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
 
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration:none;
 
-    display: inline-block;
-    margin-bottom: 16px;
     margin-right: 76px;
 
     color:var(--primary-brand);
@@ -72,16 +73,9 @@ li {
     font-size:18px;
     line-height:1.17;
 
-    display:flex;
-    align-items:center;
-    margin-right: 76px;
-
     letter-spacing:0.03em;
     text-transform:uppercase;
     text-decoration:none;
-
-    display: inline-block;
-    margin-bottom: 16px;
 
     color:var(--dark);
 }
@@ -91,6 +85,7 @@ li {
 .catalog-list{
     display: flex;
     gap: 40px;
+    list-style: none;
 }
 
 .catalog-link {
@@ -115,8 +110,7 @@ li {
 /*Contact*/
 
 .contact-address{
-    font-style:normal;
-    margin-left: 156px;
+    margin-left: auto;
 }
 
 .contact-address-list{
