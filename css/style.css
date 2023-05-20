@@ -52,7 +52,9 @@ li {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration:none;
-   
+
+    display: inline-block;
+    margin-bottom: 16px;
 
     color:var(--primary-brand);
 }
@@ -62,12 +64,17 @@ li {
     font-weight:800;
     font-size:18px;
     line-height:1.17;
+
     display:flex;
     align-items:center;
     margin-right: 76px;
+
     letter-spacing:0.03em;
     text-transform:uppercase;
     text-decoration:none;
+
+    display: inline-block;
+    margin-bottom: 16px;
 
     color:var(--dark);
 }
@@ -238,22 +245,19 @@ li {
 
 .team {
     background-color: #F4F4FD;
+    padding:120px 0;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-    list-style: none;
+    margin-bottom: 72px;
 }
 
-.team-list .title {
+.team-titles {
     background-color: #F4F4FD;
     font-family: 'Roboto';
     font-style: normal;
@@ -265,9 +269,10 @@ li {
     letter-spacing: 0.02em;
     color: var(--dark);
     list-style: none;
+    margin-bottom: 8px;
 }
 
-.team-list .text {
+.team-texts {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -276,10 +281,17 @@ li {
     letter-spacing: 0.02em;
     color: var(--text);
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 .team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+}
+
+.team-info {
+    padding: 32px 16px;
 }
 
 /*Footer*/
@@ -298,6 +310,9 @@ li {
     color:var(--primary-brand);
 
     text-decoration: none;
+
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-footer {
@@ -310,12 +325,17 @@ li {
     font-size: 16px;
     line-height:1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 /*Portfolio*/
 
 /*---Section1---*/
 /*Portfolio-Buttons*/
+
+.portfolio-list {
+    padding: 96px 0 120px;
+}
 
 .portfolio-list .list {
     font-family: "Roboto", sans-serif;
@@ -325,7 +345,13 @@ li {
     list-style: none;
 
     letter-spacing: 0.04em;
+
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
+
+
 
 .button {
     font-family: "Roboto", sans-serif;
@@ -339,13 +365,18 @@ li {
 
     color:var(--primary-brand);
     background-color: var(--cloud);
+    border: 1px solid var(--light);
     cursor: pointer;
+
+    padding: 12px 24px;
+    border-radius: 4px;
 }
 
 .button:hover,
 .button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 /*Advanteges*/
