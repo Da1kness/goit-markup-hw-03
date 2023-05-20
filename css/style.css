@@ -359,22 +359,16 @@ li {
 /*---Section1---*/
 /*Portfolio-Buttons*/
 
-.portfolio-list {
-  padding: 96px 0 120px;
+.portfolio-list-img{
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
-.portfolio-list .list {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  list-style: none;
-
-  letter-spacing: 0.04em;
-
+.portfolio-list {
+  display: flex;
   justify-content: center;
   margin-bottom: 72px;
-  display: flex;
+  gap:24px;
 }
 
 .portfolio-button {
@@ -383,6 +377,7 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  list-style: none;
 
   letter-spacing: 0.04em;
   border-radius: 4px;
@@ -405,7 +400,8 @@ li {
 
 /*Advanteges*/
 
-.advant-list {
+.advant-list{
+    display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -425,11 +421,6 @@ li {
   border-top: none;
 }
 
-.advant-text {
-  color: #434455;
-  letter-spacing: 0.02em;
-}
-
 .advant-title {
   font-weight: 500;
   font-size: 20px;
@@ -437,4 +428,9 @@ li {
   letter-spacing: 0.02em;
   color: var(--dark);
   margin-bottom: 8px;
+}
+
+.advant-text {
+  color: #434455;
+  letter-spacing: 0.02em;
 }
