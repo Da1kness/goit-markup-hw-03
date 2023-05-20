@@ -88,7 +88,7 @@ li {
 
 /*Catalog*/
 
-.catalog-list{
+.header-catalog{
     display: flex;
     gap: 40px;
 }
@@ -114,17 +114,17 @@ li {
 
 /*Contact*/
 
-.contact-address{
+.header-address{
     font-style:normal;
     margin-left: 156px;
 }
 
-.contact-address-list{
+.header-address-list{
     display: flex;
     gap: 40px;
 }
 
-.contact-address-link {
+.header-address-link {
     font-family:'Roboto';
     font-style:normal;
     font-weight:400;
@@ -137,8 +137,8 @@ li {
     color: var(--text);
 }
 
-.contact-address-link:hover,
-.contact-address-link:focus {
+.header-address-link:hover,
+.header-address-link:focus {
     color: var(--pressed-state);
 }
 
