@@ -363,7 +363,7 @@ li {
 
 
 
-.button {
+.portfolio-button {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -382,8 +382,8 @@ li {
     border-radius: 4px;
 }
 
-.button:hover,
-.button:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
     border: 1px solid transparent;
