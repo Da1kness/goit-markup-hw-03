@@ -189,6 +189,8 @@ li {
 
 .features {
     padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .features-list {
@@ -223,6 +225,7 @@ li {
 
 .work{
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .second-title {
@@ -254,6 +257,8 @@ li {
 .team {
     background-color: #F4F4FD;
     padding:120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-list {
