@@ -16,11 +16,11 @@ body {
 
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 0 auto;
-    outline:2px solid red;
+    padding: 0 15px;
 }
+
+
 
 /*------Header------*/
 
@@ -64,7 +64,7 @@ li {
     line-height:1.17;
     display:flex;
     align-items:center;
- margin-right: 76px;
+    margin-right: 76px;
     letter-spacing:0.03em;
     text-transform:uppercase;
     text-decoration:none;
@@ -106,6 +106,7 @@ li {
 
 .contact-address-list{
     display: flex;
+    gap: 40px;
 }
 
 .contact-address-link {
@@ -126,35 +127,38 @@ li {
     color: var(--pressed-state);
 }
 
+/*----Main----*/
 /*Hero*/
 
 .hero {
-    background-color: var(--dark);
+    background-color: #2e2f42;
+    padding: 188px 0;
 }
 
+
 .hero-title {
-    font-family: 'Roboto';
-    font-style: bold;
-    font-weight: 700;
-    font-size:56px;
-    line-height:1.07;
+    font-size: 56px;
+    line-height: 1.07;
     text-align: center;
-
     letter-spacing: 0.02em;
-
-    color:var(--background-color);
+    color: #ffffff;
+    max-width: 496px;
 }
 
 .hero-button {
-    background-color:var(--primary-brand);
     font-family: "Roboto", sans-serif;
-    font-style:normal;
-    font-weight:500;
-    font-size:16px;
-    line-height:1.5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:var(--primary-brand);
+    border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -168,48 +172,65 @@ li {
 /*---Section1---*/
 /*Features*/
 
-.features {}
-
-.features-title{}
-
-.features-item-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+.features {
+    padding: 120px 0;
 }
 
-.features-item-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--dark);
+}
+
+.list-text {
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text);
+}
+
+.features-item-title {
+    margin-bottom: 8px;
 }
 
 /*---Section2---*/
 /*Work*/
 
-.work-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+.work{
+    padding-bottom: 120px;
+}
+
+.second-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42
 }
 
+.work-title {
+    margin-bottom: 72px;
+}
+
 .work-list {
+    display: flex;
+    gap: 24px;
     list-style: none;
+}
+
+.work-item{
+    width: calc((100% - 48px) / 3);
 }
 
 /*---Section3---*/
@@ -327,11 +348,30 @@ li {
     background-color: #404BBF;
 }
 
-/*Portfolio-Advanteges*/
+/*Advanteges*/
 
-.advant-list {}
+.advant-list{
+    display: flex;
+    flex-wrap:wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin: 0; 
+    padding: 0;
+}
 
-.advant-item {}
+.advant-link {
+    text-decoration: none;
+}
+
+.advant-foto {
+    width: calc((100% - 48px) / 3);
+}
+
+.advant-info {
+    padding: 32px 16px;
+    border: 1px solid var(--background-color);
+    border-top: none;
+}
 
 .advant-text {
     color: #434455;
@@ -346,8 +386,4 @@ li {
     color:var(--dark);
 }
 
-.advant-link {
-    text-decoration: none;
-}
 
-.advant-img{}
